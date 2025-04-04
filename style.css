@@ -1,0 +1,233 @@
+
+
+.Hello{
+    text-align: center;
+    font-size: 75px;
+}
+.photo-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Расстояние между фотографиями */
+    align-items: center; /* Выравнивание по центру по вертикали */
+}
+.photo-row img {
+    width: 100%; /* Чтобы изображения были адаптивными */
+    max-width: 150px; /* Ограничиваем максимальную ширину изображений */
+    height: auto; /* Соотношение сторон сохраняется */
+    border-radius: 8px;
+}
+    .photo-row img:hover {
+        transform: scale(1.1);
+    }
+    a {
+            text-decoration: none; /* Убираем подчеркивание у ссылок */
+      }
+.cubeimg {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px; /* Расстояние между фотографиями */
+        align-items: center; /* Выравнивание по центру по вертикали */
+    }
+.cubeimg img {
+        
+        width: 400px; /* Ограничиваем максимальную ширину изображений */
+        height: auto; /* Соотношение сторон сохраняется */
+        border-radius: 8px;
+}
+
+.trekimg {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Расстояние между фотографиями */
+    align-items: center; /* Выравнивание по центру по вертикали */
+}
+.trekimg img {
+    
+    width: 400px; /* Ограничиваем максимальную ширину изображений */
+    height: auto; /* Соотношение сторон сохраняется */
+    border-radius: 8px;
+}
+
+.ktmimg {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Расстояние между фотографиями */
+    align-items: center; /* Выравнивание по центру по вертикали */
+}
+.ktmimg img {
+    
+    width: 400px; /* Ограничиваем максимальную ширину изображений */
+    height: auto; /* Соотношение сторон сохраняется */
+    border-radius: 8px;
+}
+
+.scottimg {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Расстояние между фотографиями */
+    align-items: center; /* Выравнивание по центру по вертикали */
+}
+.scottimg img {
+    
+    width: 400px; /* Ограничиваем максимальную ширину изображений */
+    height: auto; /* Соотношение сторон сохраняется */
+    border-radius: 8px;
+}
+
+
+
+.focusimg {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Расстояние между фотографиями */
+    align-items: center; /* Выравнивание по центру по вертикали */
+}
+.focusimg img {
+    
+    width: 400px; /* Ограничиваем максимальную ширину изображений */
+    height: auto; /* Соотношение сторон сохраняется */
+    border-radius: 8px;
+}
+
+.cubeborder{
+    border-top: 5px solid  rgb(6, 241, 45) ;
+    border-bottom: 5px solid  rgb(6, 241, 45) ;
+}
+.trekborder{
+    border-bottom: 5px solid  rgb(6, 241, 45) ;
+}
+.ktmborder{
+    border-bottom: 5px solid  rgb(6, 241, 45) ;
+}
+.scottborder{
+    border-bottom: 5px solid  rgb(6, 241, 45) ;
+}
+.focusborder{
+    border-bottom: 5px solid  rgb(6, 241, 45) ;
+}
+footer {
+    background-color: #333;
+    text-align: center;
+
+  }
+  .social-links {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+  }
+  .social-links {
+    margin: 0 15px;
+    background-color: #333;
+    display: flex;
+  }
+  
+  .social-links img {
+    margin: 0 15px;
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s;
+    background-color: #333;
+  }
+  
+  .social-links img:hover {
+    transform: scale(1.1);
+  }
+p{
+    font-size:initial ;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Тёмная тема */
+body.dark-theme {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+body.dark-theme button {
+    background-color: #34495e;
+}
+
+body.dark-theme button:hover {
+    background-color: #2c3e50;
+}
+body.dark-theme img {
+    border-color: #ffffff; /* Белая обводка на темной теме */
+}
+.u{
+    border: 5px solid #A6C9E2 ; /* Толщина и цвет обводки */
+    padding: 10px; /* Отступ между картинкой и обводкой */
+    border-radius: 10px; /* Радиус скругления углов (по желанию) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Лёгкая тень для объема */
+    transition: transform 0.3s ease; /* Плавный эффект при наведении */
+}
+
+.cu{
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+.divpcu{
+    text-align: center;
+
+}
+.KT{
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+.divpkt{
+    text-align: center;
+
+}
+.sc{
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+.divpsc{
+    text-align: center;
+
+}
+.foc{
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+.divpfoc{
+    text-align: center;
+
+}
+.tr{
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+.divptr{
+    text-align: center;
+
+}
+
